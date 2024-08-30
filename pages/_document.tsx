@@ -4,7 +4,11 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html style={{ overflow: "hidden" }}>
-        <Head />
+        <Head>
+          <title>Wordle App</title>
+          <meta name="dscvr:canvas:version" content="vNext" />
+          <meta name="og:image" content="https://my-canvas.com/preview-image.png" />
+        </Head>
         <body>
           <Main />
           <div id="toaster" />
