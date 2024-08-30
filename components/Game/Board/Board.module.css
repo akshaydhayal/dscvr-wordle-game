@@ -8,7 +8,7 @@
 
 .board {
   width: 350px;
-  height: 420px;
+  height: 280px;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   grid-gap: 5px;

@@ -11,7 +11,9 @@ const Home: NextPage = () => {
         <title>Practice Wordle</title>
         <meta name="description" content="App to practice wordle game." />
       </Head>
-      <Game />
+      <div className="gameee">
+        <Game />
+      </div>
     </Fragment>
   );
 };
